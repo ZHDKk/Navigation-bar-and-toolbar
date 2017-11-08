@@ -15,6 +15,9 @@
 		F0D9CD0A1F4FF04200A40DC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0D9CD081F4FF04200A40DC1 /* LaunchScreen.storyboard */; };
 		F0D9CD151F4FF04300A40DC1 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CD141F4FF04300A40DC1 /* _______Tests.m */; };
 		F0D9CD201F4FF04300A40DC1 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CD1F1F4FF04300A40DC1 /* _______UITests.m */; };
+		F0D9CD2F1F4FF09A00A40DC1 /* VCroot.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CD2E1F4FF09A00A40DC1 /* VCroot.m */; };
+		F0D9CD321F4FF0AB00A40DC1 /* VCSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = F0D9CD311F4FF0AB00A40DC1 /* VCSecond.m */; };
+		F0D9CD341F4FF55F00A40DC1 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = F0D9CD331F4FF55F00A40DC1 /* about.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		F0D9CD1B1F4FF04300A40DC1 /* 导航栏和工具栏UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "导航栏和工具栏UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D9CD1F1F4FF04300A40DC1 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
 		F0D9CD211F4FF04300A40DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0D9CD2D1F4FF09A00A40DC1 /* VCroot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCroot.h; sourceTree = "<group>"; };
+		F0D9CD2E1F4FF09A00A40DC1 /* VCroot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCroot.m; sourceTree = "<group>"; };
+		F0D9CD301F4FF0AB00A40DC1 /* VCSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSecond.h; sourceTree = "<group>"; };
+		F0D9CD311F4FF0AB00A40DC1 /* VCSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSecond.m; sourceTree = "<group>"; };
+		F0D9CD331F4FF55F00A40DC1 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,7 @@
 		F0D9CCEE1F4FF04200A40DC1 = {
 			isa = PBXGroup;
 			children = (
+				F0D9CD331F4FF55F00A40DC1 /* about.png */,
 				F0D9CCF91F4FF04200A40DC1 /* 导航栏和工具栏 */,
 				F0D9CD131F4FF04300A40DC1 /* 导航栏和工具栏Tests */,
 				F0D9CD1E1F4FF04300A40DC1 /* 导航栏和工具栏UITests */,
@@ -104,6 +113,10 @@
 				F0D9CCFD1F4FF04200A40DC1 /* AppDelegate.h */,
 				F0D9CCFE1F4FF04200A40DC1 /* AppDelegate.m */,
 				F0D9CD001F4FF04200A40DC1 /* ViewController.h */,
+				F0D9CD2D1F4FF09A00A40DC1 /* VCroot.h */,
+				F0D9CD2E1F4FF09A00A40DC1 /* VCroot.m */,
+				F0D9CD301F4FF0AB00A40DC1 /* VCSecond.h */,
+				F0D9CD311F4FF0AB00A40DC1 /* VCSecond.m */,
 				F0D9CD011F4FF04200A40DC1 /* ViewController.m */,
 				F0D9CD031F4FF04200A40DC1 /* Main.storyboard */,
 				F0D9CD061F4FF04200A40DC1 /* Assets.xcassets */,
@@ -249,6 +262,7 @@
 				F0D9CD0A1F4FF04200A40DC1 /* LaunchScreen.storyboard in Resources */,
 				F0D9CD071F4FF04200A40DC1 /* Assets.xcassets in Resources */,
 				F0D9CD051F4FF04200A40DC1 /* Main.storyboard in Resources */,
+				F0D9CD341F4FF55F00A40DC1 /* about.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0D9CD321F4FF0AB00A40DC1 /* VCSecond.m in Sources */,
+				F0D9CD2F1F4FF09A00A40DC1 /* VCroot.m in Sources */,
 				F0D9CD021F4FF04200A40DC1 /* ViewController.m in Sources */,
 				F0D9CCFF1F4FF04200A40DC1 /* AppDelegate.m in Sources */,
 				F0D9CCFC1F4FF04200A40DC1 /* main.m in Sources */,
